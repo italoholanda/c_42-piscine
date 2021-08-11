@@ -1,2 +1,2 @@
 # 42SP_Piscine
-Esse repositório contem exercícios em Shell e C do Basecamp 42 SP (piscina).
+This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine). 
