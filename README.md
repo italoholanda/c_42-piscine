@@ -130,3 +130,36 @@ This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
     <td>A function that capitalizes the first letter of each word and transforms all other letters to lowercase. *A word is a string of alphanumeric characters.*</td>
   </tr>
 </table>
+
+## C 03
+
+<table>
+  <tr>
+    <th>Function</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="./c03/ex00/ft_strcmp.c"> strcmp </a></td>
+    <td>The  strcmp() function compares the two strings s1 and s2.  The locale is not taken into account (for a locale-aware comparison, see strcoll(3)).  It returns an integer less than, equal to, or greater than zero if s1 is found, respectively, to be less than, to match, or be greater than s2.</td>
+  </tr>
+  <tr>
+    <td><a href="./c03/ex01/ft_strncmp.c"> strncmp </a></td>
+    <td>The strncmp() function is similar to strcmp(), except it compares only the first (at most) n bytes of s1 and s2.</td>
+  </tr>
+  <tr>
+    <td><a href="./c03/ex02/ft_strcat.c"> strcat </a></td>
+    <td>The strcat() function appends the src string to the dest string, overwriting the terminating null byte ('\0') at the end of dest, and then adds a terminating null byte. The strings may not overlap, and the  dest tring must have enough space for the result. If dest is not large enough, program behavior is unpredictable; buffer overruns are a favorite avenue for attacking secure programs.</td>
+  </tr>
+  <tr>
+    <td><a href="./c03/ex03/ft_strncat.c"> strncat </a></td>
+    <td>
+		The strncat() function is similar to strcat(), except that:
+		<ul>
+			<li> *  it will use at most n bytes from src; </li>
+			<li> *  src does not need to be null-terminated if it contains n or more bytes. </li>
+		</ul>
+		As with strcat(), the resulting string in dest is always null-terminated.
+		If src contains n or more bytes, strncat() writes n+1 bytes to dest (n from src plus  the  terminating null  byte). Therefore, the size of dest must be at least strlen(dest)+n+1.
+	</td>
+  </tr>
+</table>
