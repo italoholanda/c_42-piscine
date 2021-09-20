@@ -47,15 +47,15 @@ This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
   </tr>
   <tr>
     <td><a href="./c01/ex00/ft_ft.c"> ft </a></td>
-    <td>Create a function that takes a pointer to int as a parameter, and sets the value "42" to that int.</td>
+    <td>A function that takes a pointer to int as a parameter, and sets the value "42" to that int.</td>
   </tr>
   <tr>
     <td><a href="./c01/ex01/ft_ultimate_ft.c"> ultimate_ft </a></td>
-    <td>Create a function that takes a pointer to pointer to pointer to pointer to pointer to pointer to pointer to pointer to pointer to int as a parameter and sets the value "42" to that int.</td>
+    <td>A function that takes a pointer to pointer to pointer to pointer to pointer to pointer to pointer to pointer to pointer to int as a parameter and sets the value "42" to that int.</td>
   </tr>
   <tr>
     <td><a href="./c01/ex02/ft_swap.c"> swap </a></td>
-    <td>Create a function that swaps the value of two integers whose addresses are entered as parameters.</td>
+    <td>A function that swaps the value of two integers whose addresses are entered as parameters.</td>
   </tr>
   <tr>
     <td><a href="./c01/ex03/ft_div_mod.c"> div_mod </a></td>
@@ -79,5 +79,54 @@ This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
   <tr>
     <td><a href="./c01/ex06/ft_strlen.c"> strlen </a></td>
     <td>A function that counts and returns the number of characters in a string.</td>
+  </tr>
+</table>
+
+## C 02
+
+<table>
+  <tr>
+    <th>Function</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex00/ft_strcpy.c"> strcpy </a></td>
+    <td>The strcpy() function copies the string pointed to by src, including the terminating null byte ('\0'), to the buffer pointed to by dest. The strings may not overlap, and the destination string dest must be large enough to receive.</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex01/ft_strncpy.c"> strncpy </a></td>
+    <td>The strncpy() function is similar, except that at most n bytes of src are copied. *Warning: If there is no null byte among the first n bytes of src, the string placed in dest will not be null-terminated.*</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex02/ft_str_is_alpha.c"> str_is_alpha </a></td>
+    <td>A function that returns 1 if the string given as a parameter contains only alphabetical characters, and 0 if it contains any other character.</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex03/ft_str_is_numeric.c"> str_is_numeric </a></td>
+    <td>A function that returns 1 if the string given as a parameter contains only digits, and 0 if it contains any other character.</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex04/ft_str_is_lowercase.c"> str_is_lowercase </a></td>
+    <td>A function that returns 1 if the string given as a parameter contains only lowercase alphabetical characters, and 0 if it contains any other character.</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex05/ft_str_is_uppercase.c"> str_is_uppercase </a></td>
+    <td>A function that returns 1 if the string given as a parameter contains only uppercase alphabetical characters, and 0 if it contains any other character.</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex06/ft_str_is_printable.c"> str_is_printable </a></td>
+    <td>A function that returns 1 if the string given as a parameter contains only printable characters, and 0 if it contains any other character.</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex07/ft_strupcase.c"> strupcase </a></td>
+    <td>A function that transforms every letter to uppercase.</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex08/ft_strlowcase.c"> strlowcase </a></td>
+    <td>A function that transforms every letter to lowercase.</td>
+  </tr>
+  <tr>
+    <td><a href="./c02/ex09/ft_strcapitalize.c"> strcapitalize </a></td>
+    <td>A function that capitalizes the first letter of each word and transforms all other letters to lowercase. *A word is a string of alphanumeric characters.*</td>
   </tr>
 </table>
