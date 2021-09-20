@@ -153,7 +153,7 @@ This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
   <tr>
     <td><a href="./c03/ex03/ft_strncat.c"> strncat </a></td>
     <td>
-		The strncat() function is similar to strcat(), except that:
+		The strncat() function is similar to strcat(), except that: <br/>
 		<ul>
 			<li> *  it will use at most n bytes from src; </li>
 			<li> *  src does not need to be null-terminated if it contains n or more bytes. </li>
