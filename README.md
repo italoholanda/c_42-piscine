@@ -153,7 +153,7 @@ This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
   <tr>
     <td><a href="./c03/ex03/ft_strncat.c"> strncat </a></td>
     <td>
-		The strncat() function is similar to strcat(), except that: <br/>
+		The strncat() function is similar to strcat(), except that:
 		<ul>
 			<li> *  it will use at most n bytes from src; </li>
 			<li> *  src does not need to be null-terminated if it contains n or more bytes. </li>
@@ -161,5 +161,69 @@ This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
 		As with strcat(), the resulting string in dest is always null-terminated.
 		If src contains n or more bytes, strncat() writes n+1 bytes to dest (n from src plus  the  terminating null  byte). Therefore, the size of dest must be at least strlen(dest)+n+1.
 	</td>
+  </tr>
+</table>
+
+## C 04
+
+<table>
+  <tr>
+    <th>Function</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="./c04/ex00/ft_strlen.c"> strlen </a></td>
+    <td>A function that counts and returns the number of characters in a string.</td>
+  </tr>
+  <tr>
+    <td><a href="./c04/ex01/ft_putstr.c"> putstr </a></td>
+    <td>A function that displays a string of characters on the standard output.</td>
+  </tr>
+  <tr>
+    <td><a href="./c04/ex02/ft_putnbr.c"> putnbr </a></td>
+    <td>A function that displays the number entered as a parameter. The function has to be able to display all possible values within an int type variable.</td>
+  </tr>
+  <tr>
+    <td><a href="./c04/ex03/ft_atoi.c"> atoi </a></td>
+    <td>The  atoi() function converts the initial portion of the string pointed to by nptr to int.</td>
+  </tr>
+</table>
+
+## C05
+
+<table>
+  <tr>
+    <th>Function</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="./c05/ex00/ft_iterative_factorial.c"> iterative_factorial </a></td>
+    <td>An iterated function that returns a number. This number is the result of afactorial operation based on the number given as a parameter.
+	• If the argument is not valid the function should return 0.
+	</td>
+  </tr>
+  <tr>
+    <td><a href="./c05/ex01/ft_recursive_factorial.c"> recursive_factorial </a></td>
+    <td>A recursive function that returns the factorial of the number given as a	parameter.
+	•If the argument is not valid the function should return 0.
+	</td>
+  </tr>
+  <tr>
+    <td><a href="./c05/ex02/ft_iterative_power.c"> iterative_power </a></td>
+    <td>An iterated function that returns the value of a power applied to a number.
+	- An power lower than 0 returns 0.
+	- We’ve decided that 0 power 0 will returns 1</td>
+  </tr>
+  <tr>
+    <td><a href="./c05/ex03/ft_recursive_power.c"> recursive_power </a></td>
+    <td>An recursive function that returns the value of a power applied to a number.
+	- An power lower than 0 returns 0.
+	- We’ve decided that 0 power 0 will returns 1</td>
+  </tr>
+  <tr>
+    <td><a href="./c05/ex04/ft_fibonacci.c"> fibonacci </a></td>
+    <td>Create a function ft_fibonacci that returns the n-th element of the Fibonacci
+	sequence, the first element being at the 0 index. We’ll consider that the Fibonacci
+	sequence starts like this: 0, 1, 1, 2.</td>
   </tr>
 </table>
