@@ -1,6 +1,20 @@
 # 42SP_Piscine
 This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
 
+```
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_basecamp                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: igomes-h <italogholanda@gmail.com>         +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/07/20 00:42:00 by igomes-h          #+#    #+#             */
+/*   Updated: 2021/09/20 07:48:52 by igomes-h         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+```
+
 ## C 00
 
 <table>
@@ -225,5 +239,26 @@ This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
     <td>Create a function ft_fibonacci that returns the n-th element of the Fibonacci
 	sequence, the first element being at the 0 index. We’ll consider that the Fibonacci
 	sequence starts like this: 0, 1, 1, 2.</td>
+  </tr>
+</table>
+
+## C 06
+
+<table>
+  <tr>
+    <th>Function</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="./c06/ex00/ft_print_program_name.c"> print_program_name </a></td>
+    <td>A program that displays its own name.</td>
+  </tr>
+  <tr>
+    <td><a href="./c06/ex01/ft_print_params.c"> print_params </a></td>
+    <td>A program that displays its given arguments.</td>
+  </tr>
+  <tr>
+    <td><a href="./c06/ex02/ft_rev_params.c"> rev_params </a></td>
+    <td>A program that displays its given arguments,o ne per line, in the reverse order of the command line.</td>
   </tr>
 </table>
