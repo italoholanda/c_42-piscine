@@ -203,7 +203,7 @@ This repository contains exercises in Shell and C from 42 SP Basecamp (Piscine).
   </tr>
 </table>
 
-## C05
+## C 05
 
 <table>
   <tr>
